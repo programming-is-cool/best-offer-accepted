@@ -6,5 +6,9 @@
     "background": {
         "scripts": ["request_ebay.js"],
         "persistent" : false
-    }
+    },
+    "permissions": [
+        "https://www.google.com/",
+        "storage"
+      ]
 }
