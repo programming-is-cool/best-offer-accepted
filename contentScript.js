@@ -42,7 +42,6 @@ for(i=0; i < saleInfo.length; i++) {
                 let itemPriceElement = parentEle.getElementsByClassName('s-item__price')
                 let priceElement = itemPriceElement[0].parentElement;
                 priceElement.insertAdjacentHTML('afterend', finalPriceElement);
-                console.log(priceElement);
             }
         }).catch((error) => {
             console.log(error);
